@@ -3,11 +3,34 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import {mobilePhone, laptop} from './actions';
+// import {productReducer} from './reducer';
+// import {Provider} from 'react-redux';
+// import { createStore } from 'redux';
+
+
+// export const MOBILE_PHONE = 'MOBILE_PHONE';
+// export const LAPTOP = 'LAPTOP';
+
+// //Actions
+
+
+// //Reducer
+
+
+// //store
+
+// //let store = createStore(productReducer);
+// //let store = createStore(productReducer);
+// store.subscribe(()=> {console.log(store.getState())});
+
+//     store.dispatch(mobilePhone());
+// store.dispatch(laptop());
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  
+    <App />,
   document.getElementById('root')
 );
 
