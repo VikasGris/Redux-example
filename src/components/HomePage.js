@@ -3,9 +3,11 @@ import Header from './Header.js';
 function HomePage() {
   return (
     <>
+    <div>
         <Header/>
-       
-        Hello
+    </div>
+    
+        
     </>
 
   );

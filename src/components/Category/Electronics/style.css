@@ -6,8 +6,14 @@
   .electronics{
     align-items: flex-end;
     display: flex;
-    font-weight: 600;
-    /* text-align: center; */
     cursor: pointer;
     color: black;
+    cursor: pointer;
+}
+
+.card{
+  columns: 100px 2;
+}
+.mobiles{
+  margin-top: 10px;
 }

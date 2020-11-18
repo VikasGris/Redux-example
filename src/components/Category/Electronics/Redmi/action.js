@@ -1,1 +1,0 @@
-export const REDMI_PHONE = 'REDMI_PHONE';

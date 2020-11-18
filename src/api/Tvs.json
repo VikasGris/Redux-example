@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "name":"Mi 4X 108 cm",
+    "type": "redmi",
+    "price":"₹25,999",
+    "image": "https://rukminim1.flixcart.com/image/312/312/kc54ivk0/television/r/q/g/mi-l43m4-4ain-original-imaftc5fy6bfmhyb.jpeg?q=70",
+    "details": "Netflix|Prime Video|Disney+Hotstar|Youtube",
+    "feature":"Ultra HD (4K) 3840 x 2160 Pixels",
+    "os":"Operating System: Android",
+    "Warranty":"1 Year on TV, 2 years on Panel, 6 Months on Accessories"
+
+
+
+  },
+  {
+    "id": 2,
+    "name":"Vu Premium 126cm",
+    "type": "vu",
+    "price":"₹37,499",
+    "image": "https://rukminim1.flixcart.com/image/312/312/kbs9k7k0/television/c/j/3/samsung-ua32t4340akxxl-original-imaft25qdysfsq7k.jpeg?q=70",
+    "details": "Netflix|Prime Video|Disney+Hotstar|Youtube",
+    "feature":"Ultra HD (4K) 3840 x 2160 Pixels",
+    "os":"Operating System: Android",
+    "Warranty":"1 Year Vu Domestic Warranty"
+
+  },
+  {
+    "id": 3,
+    "name":"LG 108 cm LED Smart TV",
+    "type": "lg",
+    "price":"₹25,999",
+    "image": "https://rukminim1.flixcart.com/image/312/312/kc54ivk0/television/r/q/g/mi-l43m4-4ain-original-imaftc5fy6bfmhyb.jpeg?q=70",
+    "details": "Netflix|Prime Video|Disney+Hotstar|Youtube",
+    "feature":"HD Ready 1366 x 768 pixels",
+    "os":"Operating System: WebOS",
+    "Warranty":"1+2 ( 3 years) LG India Comprehensive Warranty"
+
+  },
+  {
+    "id": 4,
+    "name":"LG 108 cm LED Smart TV",
+    "type": "lg",
+    "brand":"mi",
+    "price":"₹15,999",
+    "image": "https://rukminim1.flixcart.com/image/312/312/kc54ivk0/television/r/q/g/mi-l43m4-4ain-original-imaftc5fy6bfmhyb.jpeg?q=70",
+    "details":"Netflix|Prime Video|Disney+Hotstar|Youtube",
+    "feature":"HD Ready 1366 x 768 pixels",
+    "os":"Operating System: WebOS",
+    "Warranty":"1+2 ( 3 years) LG India Comprehensive Warranty"
+
+  }  
+]
+
+
+
+
+
+
+
+
+
+

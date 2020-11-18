@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "Apple iPhone SE (White, 128 GB)",
+    "type":"apple",
+    "price": "₹32,999",
+    "image": "https://rukminim1.flixcart.com/image/312/312/k9loccw0/mobile/6/b/z/apple-iphone-se-mxd12hn-a-original-imafrcqfsuzwa3dz.jpeg?q=70",
+    "details": "4 gb RAM and 128 gb ROM",
+    "size": "11.94 cm (4.7 inch) Retina HD Display",
+    "camera":"12MP Rear Camera | 7MP Front Camera",
+    "feature": " Water and Dust Resistant (1 meter for Upto 30 minutes, IP67)"
+  },
+  {
+    "id": 2,
+    "name": "Redmi Note 8(Neptune Blue, 64 GB)",
+    "type":"redmi",
+    "price": "₹11,499",
+    "image": "https://rukminim1.flixcart.com/image/312/312/kdqa4y80/mobile/a/e/r/mi-redmi-note-9-m2003j15si-original-imafukarcpe9ayme.jpeg?q=70",
+    "details": "4 gb RAM and 128 gb ROM",
+    "size": "16.0 cm (6.3 inch) Full HD+ Display",
+    "camera": "48MP + 8MP + 2MP + 2MP | 13MP Front Camera",
+    "feature": " Water and Dust Resistant (1 meter for Upto 30 minutes, IP67)"
+  },
+  {
+    "id": 3,
+    "name": "Vivo Y15 (Iris Blue, 128 GB)",
+    "type":"vivo",
+    "price": "₹16,499",
+    "image": "https://rukminim1.flixcart.com/image/312/312/kb5eikw0/mobile/u/f/j/vivo-y50-vivo-1935-original-imafska3qdchhybq.jpeg?q=70",
+    "details": "4 gb RAM and 128 gb ROM",
+    "size": "16.0 cm (6.3 inch) Full HD+ Display",
+    "camera": "48MP + 8MP + 2MP + 2MP | 13MP Front Camera",
+    "feature": " Water and Dust Resistant (1 meter for Upto 30 minutes, IP67)"
+  },
+  {
+    "id": 4,
+    "name": "Redmi Note 7(Neptune Blue, 64 GB)",
+    "type":"redmi",
+    "price": "₹11,499",
+    "image": "https://rukminim1.flixcart.com/image/312/312/kfbfr0w0/mobile/y/f/s/realme-narzo-20a-rmx2050-original-imafvswuehda4esc.jpeg?q=70",
+    "details": "4 gb RAM and 128 gb ROM",
+    "size": "16.0 cm (6.3 inch) Full HD+ Display",
+    "camera": "48MP + 8MP + 2MP + 2MP | 13MP Front Camera",
+    "feature": " Water and Dust Resistant (1 meter for Upto 30 minutes, IP67)"
+  }
+]
+
+
+
+
+
+
+
+
+

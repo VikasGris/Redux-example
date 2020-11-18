@@ -9,12 +9,8 @@ import {
   MaterialInput,
   MaterialButton,
   DropdownMenu
-} from '../components/materialUi/index';
+} from './materialUi/index';
 
-/**
-* @author
-* @function Header
-**/
 
 const Header = (props) => {
 
@@ -26,7 +22,55 @@ const Header = (props) => {
 return (
   <>
   <div className="header">
-      
+  <Modal 
+        visible={loginModal}
+        onClose={() => setLoginModal(false)}
+      >
+        <div className="authContainer">
+          <div className="row">
+            <div className="leftspace">
+              <h2>Login</h2>
+              <p>Get access to your Orders, Wishlist and Recommendations</p>
+            </div>
+            <div className="rightspace">
+          
+
+                <MaterialInput 
+                  type="text"
+                  label="Enter Email/Enter Mobile Number"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+
+                <MaterialInput 
+                  type="password"
+                  label="Enter Password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  rightElement={<a href="#">Forgot?</a>}
+                />
+                <MaterialButton 
+                  title="Login"
+                  bgColor="#fb641b"
+                  textColor="#ffffff"
+                  style={{
+                    margin: '40px 0 20px 0'
+                  }}
+                />
+                <p>OR</p>
+                <MaterialButton 
+                  title="Request OTP" 
+                  bgColor="#ffffff"
+                  textColor="#2874f0"
+                  style={{
+                    margin: '20px 0'
+                  }}
+                />
+
+            </div>
+          </div>
+        </div>
+      </Modal>
       <div className="subHeader">
         <div className="logo">
           <a href="#" onClick={()=>history.push('/home')}>
@@ -44,6 +88,7 @@ return (
             <input
               className="searchInput"
               placeholder={'search for products, brands and more'}
+              
             />
             <div className="searchIconContainer">
               <IoIosSearch style={{
@@ -100,42 +145,41 @@ return (
 
       </div>
       <div className="category">
-  
-
-      
       <table>
         <tr>
           <th>
           <DropdownMenu
     menu={
       <a className="electronics" >
-        <span>Electronics</span>
+        <span style={{ paddingLeft: '65px',
+      cursor:'pointer' }}>Electronics</span>
         <IoIosArrowDown />
       </a>
     }
     menus={[
-      { label: <b onClick={() => history.push('/mobile-phone')}>Mobiles</b>, href: '', icon: null },
-      { label: 'Redmi', href: '', icon: null },
-      { label: 'Apple', href: '', icon: null },
-      { label: 'Vivo', href: '', icon: null },
-      { label: 'POCO', href: '', icon: null }
+      { label: <span onClick={() => history.push('/eletonics/mobiles')} >Mobiles</span>, href: '', icon: null },
+      { label: <span onClick={()=>history.push('/eletonics/redmi')}> Redmi</span>, href: '', icon: null },
+      { label:<span onClick={()=>history.push('/eletonics/apple')}> Apple</span>, href: '', icon: null },
+      { label:<span onClick={()=>history.push('/eletonics/vivo')}> Vivo</span>, href: '', icon: null },
+
       ]}
   />
           </th>
-        <th>
+        <th style={{ paddingLeft: '40px',
+      cursor:'pointer' }}>
         <DropdownMenu
     menu={
-      <a className="electronics" >
-        <span>Electronics</span>
+      <a>
+        <span>TVs & Appliances</span>
         <IoIosArrowDown />
       </a>
     }
     menus={[
-      { label: <b onClick={() => history.push('/mobile-phone')}>Mobiles</b>, href: '', icon: null },
-      { label: 'Redmi', href: '', icon: null },
-      { label: 'Apple', href: '', icon: null },
-      { label: 'Vivo', href: '', icon: null },
-      { label: 'POCO', href: '', icon: null }
+      { label: <span onClick={() => history.push('/TVs & Appliances/tvs')}>TVs</span>, href: '', icon: null },
+      { label: <b onClick={()=>history.push('/TVs & Appliances/redmi')}> Redmi</b>, href: '', icon: null },
+      { label:<b onClick={()=>history.push('/TVs & Appliances/vu')}> Vu</b>, href: '', icon: null },
+      { label:<b onClick={()=>history.push('/TVs & Appliances/lg')}> LG</b>, href: '', icon: null },
+
       ]}
   />
         </th>
